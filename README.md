@@ -1,35 +1,67 @@
-**MVC CRUD App – Category & Product**
+# MVC CRUD App – Category & Product
 
-A simple ASP.NET Core MVC 8 app demonstrating CRUD operations for Category and Product tables with a one-to-many relationship. Uses Entity Framework Core and Bootstrap/Bootswatch for UI.
+A simple **ASP.NET Core MVC 8** application demonstrating **CRUD operations** for **Category** and **Product** entities with a **one-to-many relationship**.
 
-**Features**
+The project showcases clean MVC architecture, Entity Framework Core integration, and a responsive UI using **Bootstrap 5 + Bootswatch**.
 
+---
 
-Manage Categories and Products
+## 🚀 Features
 
-One-to-Many: Each category can have multiple products
+- Manage **Categories** and **Products**
+- One-to-Many Relationship (Each Category can have multiple Products)
+- Clean and Structured MVC Design
+- Responsive UI with Bootswatch Theme
+- Server-Side & Client-Side Validation
+- Entity Framework Core CRUD Operations
 
-Responsive UI with Bootswatch theme
+---
 
-Server-side and client-side validation
+## 🛠️ Tech Stack
 
-**Tech Stack**
+- ASP.NET Core MVC 8
+- Entity Framework Core
+- SQL Server
+- Bootstrap 5 + Bootswatch
 
+---
 
-ASP.NET Core MVC 8
+## 🗄️ Database Schema
 
-Entity Framework Core
+### Category
 
-SQL Server
+- `CategoryId` (PK)
+- `Name`
+- `Description`
 
-Bootstrap 5 + Bootswatch
+### Product
 
+- `ProductId` (PK)
+- `Name`
+- `Price`
+- `CategoryId` (FK)
 
-**Database**
+---
 
-Category: CategoryId (PK), Name, Description
+## 🔁 Application Workflow
 
-Product: ProductId (PK), Name, Price, CategoryId (FK)
+### Category Management
+
+✔ Create Categories  
+✔ Edit Categories  
+✔ Delete Categories  
+✔ View Category List  
+
+---
+
+### Product Management
+
+✔ Create Products  
+✔ Assign Products to Categories  
+✔ Edit Products  
+✔ Delete Products  
+✔ View Product List  
+
 
 <img width="1366" height="556" alt="image" src="https://github.com/user-attachments/assets/d8d3f6da-73c1-44c3-b671-23377002a46f" />
 <img width="999" height="423" alt="image" src="https://github.com/user-attachments/assets/05304215-fca7-4bdd-ae50-182ecb0a41dd" />
